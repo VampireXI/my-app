@@ -23,7 +23,7 @@ function Counter (props){
       <p>Count = {count}</p>
       <button type='button' onClick={()=> setCount(count+1)}>Increase</button>
       <button type='button' onClick={()=> setCount(count-1)}>Decrease</button>
-      <button type='button' onClick={()=> setCount(count==nor)}>Reset</button>
+      <button type='button' onClick={()=> setCount(count==0)}>Reset</button>
     </div>
   );
 }
